@@ -2,17 +2,18 @@
 title: "Easter/Tax Data"
 author: "Kit Applegate"
 date: '2022-04-17'
-output:
-  html_document:
-    df_print: paged
+output: github_document
+ 
 ---
 
 ```{r setup, include=FALSE}
+
 knitr::opts_chunk$set(
 	echo = TRUE,
 	message = FALSE,
 	warning = FALSE
 )
+
 ```
 
 ```{r Libraries and Files, message=FALSE, warning=FALSE, include=FALSE}
