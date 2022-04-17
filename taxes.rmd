@@ -68,13 +68,13 @@ circos.axis(h = "top", labels.cex = 0.5, major.tick.length = 0.2,
               sector.index = sector.name, track.index = 2)
 }, bg.border = NA)
 
-title(main = "Sin Tax: Percentage Taxed")
+title(main = "Sin Tax: Distribution")
 
 dev.copy(jpeg,'plot.png', width=8, height=8, units="in", res=500)
 dev.off()
 
 ```
 
-In celebration of Easter and Tomorrows "Tax day", this is a tongue in cheek Plot for "Sin" tax distibutions. Done in pastel colors. Hope you enjoyed it and Happy Easter and Tax Day;)
+In celebration of Easter and Tomorrows "Tax day", this is a tongue in cheek Plot for "Sin" tax distributions. Done in pastel colors. Hope you enjoyed it and Happy Easter and Tax Day;)
 
 ![](plot.png)
