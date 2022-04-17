@@ -67,7 +67,7 @@ circos.axis(h = "top", labels.cex = 0.5, major.tick.length = 0.2,
               sector.index = sector.name, track.index = 2)
 }, bg.border = NA)
 
-title(main = "US Sin Tax: Percentage Taxed")
+title(main = "Sin Tax: Percentage Taxed")
 
 dev.copy(jpeg,'plot.png', width=8, height=8, units="in", res=500)
 dev.off()
